@@ -1,0 +1,1 @@
+export {SeaBattleProvider} from './SeaBattleProvider'

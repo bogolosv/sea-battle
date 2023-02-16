@@ -1,0 +1,90 @@
+$border: 1px solid #EB6440;
+$border-radius: 13px;
+
+.cell {
+  width: var(--sea-battle-cell-width);
+  height: var(--sea-battle-cell-width);
+  border: 1px solid #D6E4E5;
+  background: #EFF5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #497174;
+  transition: .2s;
+  cursor: default;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+
+  &_clickable {
+    cursor: pointer;
+  }
+}
+
+.ship {
+  width: 100%;
+  height: 100%;
+  background: #497174;
+  border: $border;
+
+  &_left {
+    border-radius: $border-radius 0 0 $border-radius;
+    border-right: unset;
+  }
+
+  &_right {
+    border-radius: 0 $border-radius $border-radius 0;
+    border-left: unset;
+  }
+
+  &_leftRight{
+    border-left: unset;
+    border-right: unset;
+  }
+
+  &_top {
+    border-radius: $border-radius $border-radius 0 0;
+    border-bottom: unset;
+  }
+
+  &_bottom {
+    border-radius: 0 0 $border-radius $border-radius;
+    border-top: unset;
+  }
+
+  &_topBottom {
+    border-bottom: unset;
+    border-top: unset;
+  }
+
+  &_center {
+    border-radius: $border-radius;
+  }
+
+  &_destroyed {
+    position: relative;
+
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      left: calc(50% - 2.5px);
+      width: 5px;
+      height: 100%;
+      background: #EB6440;
+      transform: rotate(45deg);
+    }
+
+    &:after {
+      transform: rotate(45deg);
+    }
+
+    &:before, {
+      transform: rotate(-45deg);
+    }
+  }
+}

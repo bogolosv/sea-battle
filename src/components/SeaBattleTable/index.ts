@@ -1,0 +1,1 @@
+export {SeaBattleTable} from './SeaBattleTable'
