@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.314c8a00.css",
-    "main.js": "/static/js/main.9e7b4b68.js",
-    "static/js/787.8f1aff30.chunk.js": "/static/js/787.8f1aff30.chunk.js",
-    "index.html": "/index.html",
-    "main.314c8a00.css.map": "/static/css/main.314c8a00.css.map",
-    "main.9e7b4b68.js.map": "/static/js/main.9e7b4b68.js.map",
-    "787.8f1aff30.chunk.js.map": "/static/js/787.8f1aff30.chunk.js.map"
+    "main.css": "/sea-battle/static/css/main.314c8a00.css",
+    "main.js": "/sea-battle/static/js/main.cdd65472.js",
+    "static/js/787.8f1aff30.chunk.js": "/sea-battle/static/js/787.8f1aff30.chunk.js",
+    "index.html": "/sea-battle/index.html",
+    "main.314c8a00.css.map": "/sea-battle/static/css/main.314c8a00.css.map",
+    "main.cdd65472.js.map": "/sea-battle/static/js/main.cdd65472.js.map",
+    "787.8f1aff30.chunk.js.map": "/sea-battle/static/js/787.8f1aff30.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.314c8a00.css",
-    "static/js/main.9e7b4b68.js"
+    "static/js/main.cdd65472.js"
   ]
 }
